@@ -101,7 +101,7 @@ def store():
     encrypted_password = encrypt_password(data["password"], salt)
     cursor = conn.cursor()
     cursor.execute(
-        "INSERT INTO users (username, name, password) VALUES (%s, %s, %s)", (data["username"], data["name"], encrypted_password))
+        "INSERT INTO users (username, name, password, role) VALUES (%s, %s, %s, %s)", (data["username"], data["name"], encrypted_password, data["role"]))
     conn.commit()
     return jsonify({"status": "Data berhasil ditambahkan"}), 201
 
