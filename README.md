@@ -12,13 +12,13 @@ Postman Export: [api.postman_collection.json](https://github.com/x-bal/uas_micro
 
 ### Clone Projek
 
-1. Clone the project with this command:
+Clone Projek dengan mengguakan perintah:
 
 ```
 git clone https://github.com/x-bal/uas_microservice_api_crud_plsql_unsia.git
 ```
 
-### Buka project di Visual Studio Code
+Buka project di Visual Studio Code
 
 ### Install semua requirement.
 
@@ -66,6 +66,7 @@ Endpoints yang perlu login:
 ### Rest Api Resource
 
 POST http://127.0.0.1:5000/login
+
 Request Body :
 
 ```
@@ -88,10 +89,11 @@ Response :
 ```
 
 GET http://127.0.0.1:5000/users
+
 Request Body :
 
 ```
-
+-
 ```
 
 Response :
@@ -118,6 +120,7 @@ Response :
 ```
 
 POST http://127.0.0.1:5000/users
+
 Request Body :
 
 ```
@@ -138,6 +141,7 @@ Response :
 ```
 
 PUT/PATCH http://127.0.0.1:5000/users/1
+
 Request Body :
 
 ```
@@ -155,6 +159,7 @@ Response :
 ```
 
 DELETE http://127.0.0.1:5000/users/1
+
 Request Body :
 
 ```
@@ -228,7 +233,7 @@ update
 
 2. Screenshoot table users dan user_logs
    Table users
-   [image](https://github.com/x-bal/uas_microservice_api_crud_plsql_unsia/table_users.png)
+   ![table_users](https://github.com/x-bal/uas_microservice_api_crud_plsql_unsia/assets/70595626/60e08996-cd2f-4a5f-97ed-06767284f757)
 
    Table user_logs
-   [image](https://github.com/x-bal/uas_microservice_api_crud_plsql_unsia/table_user_logs.png)
+   ![table_user_logs](https://github.com/x-bal/uas_microservice_api_crud_plsql_unsia/assets/70595626/31bf141b-bcba-4676-bba3-7fcf7076a7a6)
